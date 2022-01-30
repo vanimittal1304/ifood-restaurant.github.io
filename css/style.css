@@ -1,0 +1,261 @@
+/* Author: Vani Mittal;
+Theme: Restaurant Food Order;
+*/
+/* css for all*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color:#ff6b81 ;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: brown;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    padding: 1%;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: brown;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom:2% ;
+}
+.float-container{
+    position: relative;
+
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+.text-white{
+    color: white;
+}
+h3{
+    font-size: 2rem;
+}
+.text-left{
+    text-align: left;
+}
+.fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+/* css for nav baar section */
+.logo{
+    
+    width: 10%;
+    float: left;
+}
+
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/*food search section */
+.Food-search{
+    background-image: url(../images/bg.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    padding: 7% 0;
+}
+
+.Food-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/*catogary section */
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+
+    width: 28%;
+    float: left;
+    margin: 2%;
+
+}
+.box-3 img{
+    height: 200px;
+    width: 300px;
+}
+
+/*food menu section */
+.food-menu{
+    background-color: #ececec;
+    padding: 4%;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+    height: 200px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+    margin-left: 1%;
+}
+.food-menu-discription{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+    
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size:1rem;
+    color:#747d8c;
+}
+
+
+/*social section */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/*for order section */
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+    margin-left: 2%;
+}
+.order-food {
+    background-image: url(../images/orderbg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    padding: 7% 0;
+    
+}
+/*css for mobile size*/
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .Food-search input[type="search"]{
+        width: 90%;
+        margin-bottom: 5%;
+        padding: 2%;
+    }
+    .btn{
+        width: 90%;
+        padding: 2%;
+    }
+    .box-3{
+        width: 95%;
+        margin: 4% auto;
+    }
+    .Food-search{
+        padding: 20% 0;
+    }
+    .categories{
+        padding: 10% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .food-menu{
+        padding: 20% 0;
+    }
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0 ;
+    }
+    .order{
+        width: 100%;
+    }
+
+
+}
