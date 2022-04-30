@@ -1,3 +1,12 @@
+<?php 
+
+    include('../config/constants.php'); 
+
+    include('login-check.php');
+
+
+?>
+
 
 
 
@@ -27,6 +36,9 @@
                 </li>
                 <li>
                     <a href="manage-order.php">ORDER</a>
+                </li>
+                <li>
+                    <a href="logout.php">LOGOUT</a>
                 </li>
             </ul>
 

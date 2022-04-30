@@ -68,6 +68,12 @@ table tr td {
 .btn-danger:hover{
     background-color: #ff4757;
 }
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
 /*CSS FOR MENU */
 .menu{
     border-bottom: 1px solid grey;
@@ -106,4 +112,11 @@ table tr td {
 .footer{
     background-color: #ff4757;
     color: white;
+}
+/* css for login */
+.login{
+    width: 20%;
+    border: 1px solid grey;
+    margin: 10% auto;
+    padding: 2% 2%;
 }
